@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/bin/modemcatcher:system/bin/modemcatcher \
     vendor/sony/kumquat/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/sony/kumquat/proprietary/bin/msa:system/bin/msa \
-    vendor/sony/kumquat/proprietary/bin/pand:system/bin/pand\
+    vendor/sony/kumquat/proprietary/bin/pand:system/bin/pand \
 	vendor/sony/kumquat/proprietary/bin/psccd:system/bin/psccd \
     vendor/sony/kumquat/proprietary/bin/rfhal_export:system/bin/rfhal_export \
     vendor/sony/kumquat/proprietary/bin/simd:system/bin/simd \
@@ -48,9 +48,9 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/bin/usbid_init.sh:system/bin/usbid_init.sh \
     vendor/sony/kumquat/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/kumquat/proprietary/etc/adm.sqlite:system/etc/adm.sqlite \
-    vendor/sony/kumquat/proprietary/etc/AT/system_id.cfg:system/etc/AT/system_id.cfg \
     vendor/sony/kumquat/proprietary/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
     vendor/sony/kumquat/proprietary/etc/AT/model_id.cfg:system/etc/AT/model_id.cfg \
+    vendor/sony/kumquat/proprietary/etc/AT/system_id.cfg:system/etc/AT/system_id.cfg \
     vendor/sony/kumquat/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
     vendor/sony/kumquat/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
     vendor/sony/kumquat/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
@@ -58,33 +58,33 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/sony/kumquat/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
     vendor/sony/kumquat/proprietary/etc/bluetooth/qos_role_switch_blacklist.conf:system/etc/bluetooth/qos_role_switch_blacklist.conf \
-    vendor/sony/kumquat/proprietary/etc/firmware/wsm_10.bin:system/etc/firmware/wsm_10.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
-    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/sdd_20.bin:system/etc/firmware/sdd_20.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/wsm_11.bin:system/etc/firmware/wsm_11.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/sdd_11.bin:system/etc/firmware/sdd_11.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
-    vendor/sony/kumquat/proprietary/etc/firmware/wsm_20.bin:system/etc/firmware/wsm_20.bin \
-    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
     vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/cg2900_fm_fm_prog_info.fw:system/etc/firmware/cg2900_fm_fm_prog_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/CG29XX_0200_0000_patch.fw:system/etc/firmware/CG29XX_0200_0000_patch.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/CG29XX_0200_0000_settings.fw:system/etc/firmware/CG29XX_0200_0000_settings.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_lut_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw:system/etc/firmware/FM_FW_CG2910_1_0_P1_4_prog_info.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_BT_src_coeff_1.1.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_coef.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw:system/etc/firmware/R1f.2_SoC1v20_Cobra_FM_SOC1_prog.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw:system/etc/firmware/R1f.2_SoC1v20_EXT_src_coeff_1.1.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_BT_src_coeff_1.1.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_coef.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw:system/etc/firmware/R2c.2_SoC2v06_Cobra_FM_SOC2_prog.fw \
+    vendor/sony/kumquat/proprietary/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw:system/etc/firmware/R2c.2_SoC2v06_EXT_src_coeff_1.1.fw \
     vendor/sony/kumquat/proprietary/etc/firmware/sdd_10.bin:system/etc/firmware/sdd_10.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/sdd_11.bin:system/etc/firmware/sdd_11.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/sdd_20.bin:system/etc/firmware/sdd_20.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/sdd_22.bin:system/etc/firmware/sdd_22.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/ttsp_fw.hex:system/etc/firmware/ttsp_fw.hex \
+    vendor/sony/kumquat/proprietary/etc/firmware/wsm_10.bin:system/etc/firmware/wsm_10.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/wsm_11.bin:system/etc/firmware/wsm_11.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/wsm_20.bin:system/etc/firmware/wsm_20.bin \
+    vendor/sony/kumquat/proprietary/etc/firmware/wsm_22.bin:system/etc/firmware/wsm_22.bin \
     vendor/sony/kumquat/proprietary/etc/LbsConfig.cfg:system/etc/LbsConfig.cfg \
     vendor/sony/kumquat/proprietary/etc/LbsLogConfig.cfg:system/etc/LbsLogConfig.cfg \
     vendor/sony/kumquat/proprietary/etc/LbsPgpsConfig.cfg:system/etc/LbsPgpsConfig.cfg \
@@ -125,8 +125,8 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/kumquat/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/kumquat/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
-    vendor/sony/kumquat/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/kumquat/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+    vendor/sony/kumquat/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/kumquat/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/kumquat/proprietary/lib/libcflashdriver.so:system/lib/libcflashdriver.so \
     vendor/sony/kumquat/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
@@ -266,27 +266,27 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/sony/kumquat/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat:system/usr/share/camera/config_file/aptina_mt9v115.dat \
+    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat:system/usr/share/camera/config_file/omnivision_ov5640_sec.dat \
-    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
-    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidPre-010045.xml:system/usr/share/camera/tuning/TunVidPre-010045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidRec-010045.xml:system/usr/share/camera/tuning/TunVidRec-010045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/sony_isx006.dat:system/usr/share/camera/config_file/sony_isx006.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLin-010045.nmx:system/usr/share/camera/tuning/ChrLin-010045.nmx \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidRec-020045.xml:system/usr/share/camera/tuning/TunVidRec-020045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLin-020045.nmx:system/usr/share/camera/tuning/ChrLin-020045.nmx \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLsc-010045.nmx:system/usr/share/camera/tuning/ChrLsc-010045.nmx \
     vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLsc-020045.nmx:system/usr/share/camera/tuning/ChrLsc-020045.nmx \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrOth-010045.bin:system/usr/share/camera/tuning/ChrOth-010045.bin \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrOth-020045.bin:system/usr/share/camera/tuning/ChrOth-020045.bin \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunCommon-010045.xml:system/usr/share/camera/tuning/TunCommon-010045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunCommon-020045.xml:system/usr/share/camera/tuning/TunCommon-020045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiCap-020045.xml:system/usr/share/camera/tuning/TunStiCap-020045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiCap-010045.xml:system/usr/share/camera/tuning/TunStiCap-010045.xml \
     vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiPre-020045.xml:system/usr/share/camera/tuning/TunStiPre-020045.xml \
     vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiPre-010045.xml:system/usr/share/camera/tuning/TunStiPre-010045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunCommon-010045.xml:system/usr/share/camera/tuning/TunCommon-010045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLsc-010045.nmx:system/usr/share/camera/tuning/ChrLsc-010045.nmx \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiCap-020045.xml:system/usr/share/camera/tuning/TunStiCap-020045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrLin-020045.nmx:system/usr/share/camera/tuning/ChrLin-020045.nmx \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrOth-010045.bin:system/usr/share/camera/tuning/ChrOth-010045.bin \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunCommon-020045.xml:system/usr/share/camera/tuning/TunCommon-020045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunStiCap-010045.xml:system/usr/share/camera/tuning/TunStiCap-010045.xml \
-    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/ChrOth-020045.bin:system/usr/share/camera/tuning/ChrOth-020045.bin \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidPre-010045.xml:system/usr/share/camera/tuning/TunVidPre-010045.xml \
     vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidPre-020045.xml:system/usr/share/camera/tuning/TunVidPre-020045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidRec-010045.xml:system/usr/share/camera/tuning/TunVidRec-010045.xml \
+    vendor/sony/kumquat/proprietary/usr/share/camera/tuning/TunVidRec-020045.xml:system/usr/share/camera/tuning/TunVidRec-020045.xml \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/common/portstate.elf4nmf \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/emptythisbuffer.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/emptythisbuffer.elf4nmf \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/_ev/eventhandler.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/_ev/eventhandler.elf4nmf \
@@ -573,12 +573,12 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/effect/libvolctrl.elf4nmf \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/volctrl/nmfil/effect.elf4nmf \
     vendor/sony/kumquat/proprietary/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf \
+    vendor/sony/kumquat/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
     vendor/sony/kumquat/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/kumquat/proprietary/vendor/camera/KMO05BN0.dat:system/vendor/camera/KMO05BN0.dat \
-    vendor/sony/kumquat/proprietary/vendor/camera/STW05BN0_BH6476.dat:system/vendor/camera/STW05BN0_BH6476.dat \
-    vendor/sony/kumquat/proprietary/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
-    vendor/sony/kumquat/proprietary/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
-    vendor/sony/kumquat/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/kumquat/proprietary/vendor/camera/KMO05BN0_BH6476.dat:system/vendor/camera/KMO05BN0_BH6476.dat \
+    vendor/sony/kumquat/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/kumquat/proprietary/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
+    vendor/sony/kumquat/proprietary/vendor/camera/STW05BN0_BH6476.dat:system/vendor/camera/STW05BN0_BH6476.dat \
     vendor/sony/kumquat/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
     vendor/sony/kumquat/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker
