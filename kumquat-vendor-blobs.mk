@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
     vendor/sony/kumquat/proprietary/bin/msa:system/bin/msa \
     vendor/sony/kumquat/proprietary/bin/pand:system/bin/pand \
-	vendor/sony/kumquat/proprietary/bin/psccd:system/bin/psccd \
+    vendor/sony/kumquat/proprietary/bin/psccd:system/bin/psccd \
     vendor/sony/kumquat/proprietary/bin/rfhal_export:system/bin/rfhal_export \
     vendor/sony/kumquat/proprietary/bin/simd:system/bin/simd \
     vendor/sony/kumquat/proprietary/bin/simpbd:system/bin/simpbd \
