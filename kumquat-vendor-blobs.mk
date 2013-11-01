@@ -265,8 +265,8 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/sony/kumquat/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/sony/kumquat/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat:system/usr/share/camera/config_file/aptina_mt9v115.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
+    vendor/sony/kumquat/proprietary/usr/share/camera/config_file/aptina_mt9v115.dat:system/usr/share/camera/config_file/aptina_mt9v115.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_sec.dat:system/usr/share/camera/config_file/omnivision_ov5640_sec.dat \
     vendor/sony/kumquat/proprietary/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri_30fps.dat \
