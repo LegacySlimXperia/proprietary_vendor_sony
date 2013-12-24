@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/bin/admsrv:system/bin/admsrv \
     vendor/sony/kumquat/proprietary/bin/at_core:system/bin/at_core \
+    vendor/sony/kumquat/proprietary/bin/batcap:system/bin/batcap \
     vendor/sony/kumquat/proprietary/bin/blue-up.sh:system/bin/blue-up.sh \
     vendor/sony/kumquat/proprietary/bin/cg2900-channel_init.sh:system/bin/cg2900-channel_init.sh \
     vendor/sony/kumquat/proprietary/bin/chargemon:system/bin/chargemon \
