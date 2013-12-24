@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/lib/libarchive_fe.so:system/lib/libarchive_fe.so \
     vendor/sony/kumquat/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/sony/kumquat/proprietary/lib/libbassapp.so:system/lib/libbassapp.so \
-    vendor/sony/kumquat/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
     vendor/sony/kumquat/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/kumquat/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/kumquat/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
