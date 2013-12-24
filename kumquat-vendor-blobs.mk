@@ -166,6 +166,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/lib/libphonet.so:system/lib/libphonet.so \
     vendor/sony/kumquat/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/kumquat/proprietary/lib/libpscc.so:system/lib/libpscc.so \
+    vendor/sony/kumquat/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/kumquat/proprietary/lib/libS1SL.so:system/lib/libS1SL.so \
     vendor/sony/kumquat/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     vendor/sony/kumquat/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
